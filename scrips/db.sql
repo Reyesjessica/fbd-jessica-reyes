@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS tallermecanico.Repuesto(
     IVA INT
     Hoja_de_parte id_Hoja INT ,
     Hoja_de_parte Mecanico id_mecanico INT,
-PRIMARY KEY (idRep)
+PRIMARY KEY (id_Rep)
 )
 CREATE TABLE IF NOT EXISTS tallermecanico.Hoja_de_parte(
     id_Hoja INT,
